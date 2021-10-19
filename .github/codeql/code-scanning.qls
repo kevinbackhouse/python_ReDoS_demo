@@ -1,0 +1,4 @@
+- import: codeql-suites/python-code-scanning.qls
+  from: codeql-python
+- import: codeql-suites/python-security-extended.qls
+  from: codeql-python

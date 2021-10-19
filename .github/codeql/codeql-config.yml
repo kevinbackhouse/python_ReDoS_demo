@@ -1,0 +1,4 @@
+name: "CodeQL config"
+
+queries:
+    - uses: ./.github/codeql/code-scanning.qls
