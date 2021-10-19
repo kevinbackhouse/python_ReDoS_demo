@@ -1,0 +1,7 @@
+# Start with all the queries in the codeql/python-queries pack.
+- queries: .
+  from: codeql/python-queries
+# Restrict to only the queries with the following ID patterns.
+- include:
+    id:
+      - py/redos

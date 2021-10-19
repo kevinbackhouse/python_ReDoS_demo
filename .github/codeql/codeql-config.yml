@@ -2,3 +2,4 @@ name: "CodeQL config"
 
 queries:
     - uses: ./.github/codeql/code-scanning.qls
+    - uses: ./.github/codeql/redos.qls
